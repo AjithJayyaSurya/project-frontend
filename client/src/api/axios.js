@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: `${import.meta.env.VITE_API_URL}/api`, // backend URL from .env with /api prefix
+  baseURL: `https://project-backend-1-whqs.onrender.com/api`, // backend URL from .env with /api prefix
   headers: {
     "Content-Type": "application/json",
   },
